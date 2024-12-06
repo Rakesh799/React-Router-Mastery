@@ -5,8 +5,8 @@ const Header = () => {
     return (
         <div>
             <nav className=' bg-[#F3E5F5] py-4'>
-                <div className="mx-auto w-3/4 flex justify-between items-center">
-                    <h2 className='font-bold text-2xl'>React Router</h2>
+                <div className="mx-auto md:w-3/4 flex justify-between items-center px-2">
+                    <h2 className='font-bold text-2xl md:w-40 w-20'>React Router</h2>
                     <ul className='flex gap-4 font-bold items-center'>
                         <li className='cursor-pointer hover:underline'>
                             <NavLink to="" className={({ isActive }) => isActive ? "text-purple-900" : "text-black"}>

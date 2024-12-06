@@ -5,7 +5,7 @@ const Footer = () => {
   return (
     <>
       <div className='w-full bottom-0'>
-        <div className="w-3/4 mx-auto mt-8 grid grid-cols-3 gap-4">
+        <div className="md:w-3/4 p-1 mx-auto mt-8 grid grid-cols-3 gap-4">
           <div className=''>
             <div className='flex items-center gap-2'>
               <img className='w-8 h-8 rounded-full' src="logo.jpg" alt="IMG" />
@@ -17,8 +17,8 @@ const Footer = () => {
               </p>
             </div>
           </div>
-          <div className='flex gap-x-20'>
-            <div className='ml-4'>
+          <div className='flex md:gap-x-20 gap-x-1'>
+            <div className='md:ml-4'>
               <h3 className='font-bold'>Pages</h3>
               <div className='text-xs mt-2'>
                 <div className='hover:underline'>
@@ -29,6 +29,9 @@ const Footer = () => {
                 </div>
                 <div className='hover:underline'>
                   <Link to="contact">Contact</Link>
+                </div>
+                <div className='hover:underline'>
+                  <Link to="github">Github</Link>
                 </div>
               </div>
             </div>
