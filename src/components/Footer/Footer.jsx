@@ -8,7 +8,7 @@ const Footer = () => {
         <div className="md:w-3/4 p-1 mx-auto mt-8 grid grid-cols-3 gap-4">
           <div className=''>
             <div className='flex items-center gap-2'>
-              <img className='w-8 h-8 rounded-full' src="logo.jpg" alt="IMG" />
+              <img className='w-8 h-8 rounded-full' src="dp.jpg" alt="IMG" />
               <h2 className='font-bold'>Rakesh Choudhury</h2>
             </div>
             <div>
