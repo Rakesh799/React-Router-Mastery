@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom'
 const Footer = () => {
   return (
     <>
-      <div className='w-full bottom-0'>
+      <div className='w-[95%] md:w-full mx-auto bottom-0'>
         <div className="md:w-3/4 p-1 mx-auto mt-8 grid grid-cols-3 gap-4">
           <div className=''>
             <div className='flex items-center gap-2'>
@@ -17,8 +17,8 @@ const Footer = () => {
               </p>
             </div>
           </div>
-          <div className='flex md:gap-x-20 gap-x-1'>
-            <div className='md:ml-4'>
+          <div className='flex md:gap-x-20 gap-x-6'>
+            <div className='md:ml-4 ml-8'>
               <h3 className='font-bold'>Pages</h3>
               <div className='text-xs mt-2'>
                 <div className='hover:underline'>
@@ -45,9 +45,11 @@ const Footer = () => {
               </div>
             </div>
           </div>
-          <div className=''>
+          <div className='hidden md:block'>
             <h3 className='font-bold'>Subscribe to GymboyRakesh</h3>
-            <button className='bg-[#F3E5F5] hover:bg-[#e8f0fe] py-1 px-2 rounded-lg mt-5 font-bold ring-1 ring-black'>Subscribe</button>
+            <button className='bg-[#F3E5F5] hover:bg-[#e8f0fe] py-1 px-2 rounded-lg mt-5 font-bold ring-1 ring-black'>
+              <Link to={"https://www.youtube.com/@GymBoyRakesh"} target='blank'>GymboyRakesh</Link>
+            </button>
           </div>
         </div>
         <div>
