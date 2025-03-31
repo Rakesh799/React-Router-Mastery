@@ -9,22 +9,22 @@ const Home = () => {
                     <p className='md:w-1/4 text-xs mx-auto py-6 px-2'>React Router simplifies navigation in React apps, enabling dynamic routing, URL management, and component-based rendering. It enhances user experience effortlessly.</p>
                     <button className='bg-[#F3E5F5] hover:bg-[#e8f0fe] py-1 px-2 rounded-lg font-bold ring-1 ring-black'>Get Started</button>
                 </div>
-                <div className='md:w-3/4 px-1 h-80 flex mx-auto md:gap-6 gap-1 my-12 relative'>
-                    <div className='w-1/4 h-full'>
+                <div className='md:w-3/4 px-1 h-80 flex md:flex-row flex-col mx-auto md:gap-6 gap-36 my-12 md:relative'>
+                    <div className='md:w-1/4 h-full'>
                         <img className='rounded-xl' src="d.png" alt="" />
                     </div>
-                    <div className='w-1/4 h-full relative top-6'>
+                    <div className='md:w-1/4 h-full md:relative md:top-6'>
                         <img className='rounded-xl' src="c.png" alt="" />
                     </div>
-                    <div className='w-1/4 h-full'>
+                    <div className='md:w-1/4 h-full'>
                         <img className='rounded-xl' src="b.png" alt="" />
                     </div>
-                    <div className='w-1/4 h-full relative top-6'>
+                    <div className='md:w-1/4 h-full md:relative md:top-6'>
                         <img className='rounded-xl' src="a.png" alt="" />
                     </div>
                 </div>
 
-                <div className='w-3/4 mx-auto md:mt-24 md:my-20'>
+                <div className='w-3/4 mx-auto mt-[1600px] md:mt-20 my-20'>
                     <img src="e.png" alt="" />
                 </div>
 
